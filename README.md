@@ -189,3 +189,28 @@ curl -X POST -d '{"text": "This is a sentence in English"}' https://api.openai.c
 
 
 
+Podaj przykłady 20 usług SaaS
+
+1. Uczenie maszynowe: uczenie maszynowe, tworzenie modeli, optymalizacja, predykcje
+2. Rozpoznawanie języka naturalnego: analiza wprowadzonych informacji, tworzenie wypowiedzi, tworzenie i optymalizacja treści
+3. Natural Language Generation: tworzenie zdań, tworzenie złożonych zdań, tworzenie zdań w wielu językach
+4. Analiza tekstu: wykrywanie tematów, określanie emocji, analiza postaw
+5. Analiza obrazów: tworzenie obrazu, analiza obrazu, rozpoznawanie twarzy, rozpoznawanie obiektów
+6. Analiza dźwięku: wykrywanie mowy, wykrywanie i rozpoznawanie dźwięków
+7. Analiza danych: wykrywanie wzorców, analiza wielowymiarowa, analiza czasu rzeczywistego
+8. Analiza wideo: wykrywanie obiektów, wykrywanie twarzy, analiza ruchu
+9. Generowanie treści: tworzenie postów na Twitterze, tworzenie postów na Instagramie, tworzenie postów na Facebooku
+10. Generowanie muzyki: komponowanie muzyki, tworzenie remixów
+11. Analiza ryzyka: wykrywanie wyłudzeń, wykrywanie oszustw, wykrywanie nieautoryzowanych transakcji
+12. Uczenie automatyczne: tworzenie algorytmów, tworzenie modeli, optymalizacja, predykcje
+13. Analiza sieci społecznych: analiza relacji, analiza postów, tworzenie wizualizacji
+14. Analiza danych geograficznych: wykrywanie wzorców, analiza danych przestrzennych, wykrywanie zmian
+15. Analiza czasu rzeczywistego: śledzenie wydarzeń, wykrywanie trendów, wykrywanie anomalii
+16. Analiza techniczna: wykrywanie wzorców, analiza danych historycznych, optymalizacja strategii
+17. Analiza danych webowych: wykrywanie wzorców, śledzenie trendów, wykrywanie anomalii
+18. Analiza głosu: wykrywanie mowy, wykrywanie i rozpoznawanie dźwięków
+19. Analiza ruchu: analiza ruchu na stronach internetowych, wykrywanie trendów, wykrywanie anomalii
+20. Analiza danych IoT: analiza danych rzeczywistych, wykrywanie wzorców, wykrywanie anomalii
+
+
+
