@@ -105,3 +105,66 @@ podaj przykłady 100 usług opartych o API z openai.com
 98. Wykrywanie anomalii sztucznej inteligencji
 99. Uczenie maszynowe wykrywania obiektów
 100. Generowanie strategii wykrywania obiektów
+
+
+
+Podaj przykład 1 requestu do każdego typu narządzia z API openai.com jako komendą curl i response w postaci json
+
+GPT-3
+curl -X POST -d '{"prompt": "What is the capital of France?", "temperature": 0.7, "top_p": 0.9}' -H "Authorization: Bearer <YOUR_API_KEY>" https://api.openai.com/v1/engines/davinci/completions
+
+Response:
+{
+    "choices": [
+        {
+            "text": "Paris",
+            "index": 0,
+            "logprobs": [
+                -0.08726203322410583,
+                -3.856241703125715
+            ],
+            "finish_reason": "length"
+        }
+    ],
+    "object": "list"
+}
+
+GPT-2
+curl -X POST -d '{"prompt": "What is the capital of France?", "temperature": 0.7, "top_p": 0.9}' -H "Authorization: Bearer <YOUR_API_KEY>" https://api.openai.com/v1/engines/gpt2/completions
+
+Response:
+{
+    "choices": [
+        {
+            "text": "Paris",
+            "index": 0,
+            "logprobs": [
+                -0.08726203322410583,
+                -3.856241703125715
+            ],
+            "finish_reason": "length"
+        }
+    ],
+    "object": "list"
+}
+
+Davinci
+curl -X POST -d '{"prompt": "What is the capital of France?", "temperature": 0.7, "top_p": 0.9}' -H "Authorization: Bearer <YOUR_API_KEY>" https://api.openai.com/v1/engines/davinci/completions
+
+Response:
+{
+    "choices": [
+        {
+            "text": "Paris",
+            "index": 0,
+            "logprobs": [
+                -0.08726203322410583,
+                -3.856241703125715
+            ],
+            "finish_reason": "length"
+        }
+    ],
+    "object": "list"
+}
+
+
