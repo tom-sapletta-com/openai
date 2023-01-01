@@ -189,7 +189,7 @@ curl -X POST -d '{"text": "This is a sentence in English"}' https://api.openai.c
 
 
 
-Podaj przykłady 20 usług SaaS
+## Podaj przykłady 20 usług SaaS
 
 1. Uczenie maszynowe: uczenie maszynowe, tworzenie modeli, optymalizacja, predykcje
 2. Rozpoznawanie języka naturalnego: analiza wprowadzonych informacji, tworzenie wypowiedzi, tworzenie i optymalizacja treści
@@ -214,3 +214,84 @@ Podaj przykłady 20 usług SaaS
 
 
 
+
+
+## Podaj przykłady 3 usług SaaS w oparciu o request do API openai.com, podaj przykład komendy curl z danymi wejściowymi oraz response w postaci json:
+
+1. Usługa predykcji jakości tekstu:
+
+Komenda curl:
+
+    curl -X POST -H "Content-Type: application/json" -d '{"prompt": "The  quick brown fox jumps over the lazy dog"}' https://api.openai.com/v1/engines/davinci/completions
+
+Response w postaci json:
+
+    {
+      "id": "e8b7a530-091f-4c8d-a77f-0904c7a9f9a2",
+      "object": "text",
+      "choice": "original",
+      "text": "The quick brown fox jumps over the lazy dog",
+      "score": 0.9507393711505572,
+      "choices": [
+        {
+          "text": "The quick brown fox jumps over the lazy dog",
+          "score": 0.9507393711505572
+        },
+        {
+          "text": "The quick brown foxs jumps over the lazy dog",
+          "score": 0.7350095919013092
+        }
+      ]
+    }
+
+2. Usługa wykrywania języka:
+
+Komenda curl:
+
+    curl -X POST -H "Content-Type: application/json" -d '{"prompt": "The quick brown fox jumps over the lazy dog"}' https://api.openai.com/v1/engines/davinci/language
+
+Response w postaci json:
+
+    {
+      "id": "b8e33bab-3b9d-40d3-8e3d-56a86e7c7d2b",
+      "object": "language",
+      "choice": "original",
+      "language": "en",
+      "score": 0.9999957003594487,
+      "choices": [
+        {
+          "language": "en",
+          "score": 0.9999957003594487
+        },
+        {
+          "language": "es",
+          "score": 0.0000042996480897263
+        }
+      ]
+    }
+
+3. Usługa analizy sentymentu:
+
+Komenda curl:
+
+    curl -X POST -H "Content-Type: application/json" -d '{"prompt": "The quick brown fox jumps over the lazy dog"}' https://api.openai.com/v1/engines/davinci/sentiment
+
+Response w postaci json:
+
+    {
+      "id": "a4e8a6ca-d769-4f98-a7d9-fec8a7f2a6c2",
+      "object": "sentiment",
+      "choice": "original",
+      "sentiment": "positive",
+      "score": 0.9999997624602746,
+      "choices": [
+        {
+          "sentiment": "positive",
+          "score": 0.9999997624602746
+        },
+        {
+          "sentiment": "negative",
+          "score": 0.0000002375397253958
+        }
+      ]
+    }
