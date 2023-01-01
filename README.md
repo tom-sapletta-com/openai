@@ -3,7 +3,7 @@ pytania i odpowiedzi z openai.com
 
 
 
-podaj przykłady 100 usług opartych o API z openai.com
+## podaj przykłady 100 usług opartych o API z openai.com
 
 1. Pogłębiana analiza tekstu
 2. Uczenie maszynowe naturalnego języka
@@ -108,7 +108,7 @@ podaj przykłady 100 usług opartych o API z openai.com
 
 
 
-Podaj przykład 1 requestu do każdego typu narządzia z API openai.com jako komendą curl i response w postaci json
+## Podaj przykład 1 requestu do każdego typu narządzia z API openai.com jako komendą curl i response w postaci json
 
 GPT-3
 curl -X POST -d '{"prompt": "What is the capital of France?", "temperature": 0.7, "top_p": 0.9}' -H "Authorization: Bearer <YOUR_API_KEY>" https://api.openai.com/v1/engines/davinci/completions
@@ -166,5 +166,26 @@ Response:
     ],
     "object": "list"
 }
+
+
+
+
+## Podaj przykłady usług, które można zaoferować w oparciu o request do API openai.com jako komendą curl i response w postaci json
+
+1. Generowanie tekstu:
+curl -X POST -d '{"prompt": "Hello, world!", "temperature": 0.5}' https://api.openai.com/v1/engines/davinci/completions
+
+2. Rozpoznawanie języka:
+curl -X POST -d '{"text": "This is a sentence in English"}' https://api.openai.com/v1/engines/davinci/language_recognition
+
+3. Analiza tekstu:
+curl -X POST -d '{"text": "This is a sentence in English"}' https://api.openai.com/v1/engines/davinci/text_analysis
+
+4. Generowanie pytań:
+curl -X POST -d '{"prompt": "Hello, world!", "temperature": 0.5}' https://api.openai.com/v1/engines/davinci/questions
+
+5. Sumaryzowanie tekstu:
+curl -X POST -d '{"text": "This is a sentence in English"}' https://api.openai.com/v1/engines/davinci/text_summarization
+
 
 
