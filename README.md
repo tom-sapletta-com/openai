@@ -313,3 +313,31 @@ Response w postaci json:
 6. Przecenianie postępu sztucznej inteligencji, który jest większy niż faktycznie jest.
 
 7. Przyjmowanie jako prawdy to, co zostanie powiedziane przez media lub inne źródła informacji na temat sztucznej inteligencji, bez wcześniejszego przeprowadzenia własnych badań.
+
+
+## podaj przykłady usług, które są opłacane wysoko niewspółmiernie do czasu i kompetencji wymaganych do ich wykonania
+
+1. Usługi consultingowe.
+2. Usługi doradztwa finansowego.
+3. Usługi prawne.
+4. Usługi porządkowe.
+5. Usługi usług fotograficznych.
+6. Usługi tworzenia stron internetowych.
+7. Usługi projektowania grafiki.
+8. Usługi tworzenia oprogramowania.
+9. Usługi tworzenia aplikacji mobilnych.
+10. Usługi zarządzania projektami.
+
+
+## podaj przykłady najdroższych usług, nie wymagających kompetencji a bazujących na wierze klienta w ich skuteczność
+
+1. Usługi coachingowe.
+2. Usługi jasnowidzenia.
+3. Usługi wróżbiarstwa.
+4. Usługi leczenia duchowego.
+5. Usługi doradztwa duchowego.
+6. Usługi wynajmu luksusowych jachtów
+7. Usługi zakupu i sprzedaży luksusowych przedmiotów.
+8. Usługi zakupu i sprzedaży luksusowych samochodów.
+9. Usługi zakupu i sprzedaży luksusowych nieruchomości.
+10. Usługi zakupu i sprzedaży luksusowych dzieł sztuki.
