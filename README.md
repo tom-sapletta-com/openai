@@ -341,3 +341,16 @@ Response w postaci json:
 8. Usługi zakupu i sprzedaży luksusowych samochodów.
 9. Usługi zakupu i sprzedaży luksusowych nieruchomości.
 10. Usługi zakupu i sprzedaży luksusowych dzieł sztuki.
+
+## podaj przykłady usług, które są wykonywane przez człowieka a mogą być wykonywane przez sztuczną inteligencję
+
+1. Przetwarzanie danych i analiza danych.
+2. Rozpoznawanie twarzy.
+3. Wykonywanie diagnostyki medycznej.
+4. Przepisywanie danych.
+5. Generowanie treści.
+6. Przetwarzanie języka naturalnego.
+7. Kontrola jakości produktów.
+8. Przetwarzanie obrazów i analiza obrazów.
+9. Zarządzanie i analiza ryzyka.
+10. Zautomatyzowane usługi pomocy technicznej.
