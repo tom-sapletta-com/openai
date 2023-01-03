@@ -295,3 +295,21 @@ Response w postaci json:
         }
       ]
     }
+
+
+
+## Jakie cechy sprawiają, że ludzie przeceniają wpływ sztucznej inteligencji i poziom jej zaawansowania?
+
+1. Niedostateczna wiedza na temat tego, czym jest sztuczna inteligencja i jakie są jej ograniczenia.
+
+2. Przekonanie, że sztuczna inteligencja jest w stanie wykonać wszystko, co człowiek.
+
+3. Przenoszenie postępu w technologii sztucznej inteligencji na inne obszary, w których nie ma takiego postępu.
+
+4. Przesadne wierzenie w własne możliwości i wierzenie, że sztuczna inteligencja jest w stanie wykonać wszystko, co człowiek.
+
+5. Wystawianie sztucznej inteligencji na piedestale, pomijając jej ograniczenia i wady.
+
+6. Przecenianie postępu sztucznej inteligencji, który jest większy niż faktycznie jest.
+
+7. Przyjmowanie jako prawdy to, co zostanie powiedziane przez media lub inne źródła informacji na temat sztucznej inteligencji, bez wcześniejszego przeprowadzenia własnych badań.
